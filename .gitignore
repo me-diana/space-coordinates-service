@@ -1,0 +1,47 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Poetry
+poetry.toml
+
+# Переменные окружения / секреты
+.env
+.env.*
+!.env.example
+
+# Логи
+*.log
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# mypy / ruff
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Личные заметки по ходу разработки, не для ревью
+docs/
+
